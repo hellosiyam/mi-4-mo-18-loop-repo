@@ -222,3 +222,60 @@
 //     }
     
 // },1000)
+
+//<----------------break------------->
+// Task-1
+// for (let i = 1; i <=200; i++){
+//     if (i>100) {
+//         break
+//     }
+//     console.log(i);
+// }
+
+// Task-2
+// let sum = 0;
+// for (let i = 1; i <=120; i++) {
+//     sum=sum+i;
+//     console.log(sum);
+//     if (sum>100) {
+//         break
+//     }
+// }
+
+// Task-3
+// let num=2;
+// while (num<=100) {
+//     if (condition) {
+        
+//     }
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//     if (Number.isInteger(Math.sqrt(i))) {
+//       console.log(`First square number encountered: ${i}`);
+//       break;
+//     }
+//   }
+
+//<----------------continue------------->
+// for (let i = 1; i <=40; i++) {
+//     if (i%2==!0) {
+//         continue
+        
+//     }
+//     console.log(i);
+    
+// }
+
+// Task-2
+for (let i = 55; i <=85; i++) {
+    
+    
+    if (i%5!==0 && i%2!==0) {
+     
+        console.log(i);
+        continue
+    }
+}
+
+
