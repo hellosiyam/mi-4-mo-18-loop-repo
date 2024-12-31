@@ -12,7 +12,8 @@ let sum =0;
 for (let num = 0; num<20; num=num+2 ){
     console.log("Numner",num);
     sum=num+sum
-    console.log('sum=',sum);
     
     
 }
+
+console.log('sum=',sum);
